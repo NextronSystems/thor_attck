@@ -1,6 +1,6 @@
 {
 	"name": "THOR APT Scanner",
-	"version": "2.1",
+	"version": "2.2",
 	"domain": "mitre-enterprise",
 	"description": "Coverage provided by THOR APT Scanner",
 	"filters": {
@@ -8,9 +8,9 @@
 			"act"
 		],
 		"platforms": [
-			"windows",
-			"linux",
-			"mac"
+			"Windows",
+			"Linux",
+			"macOS"
 		]
 	},
 	"sorting": 0,
@@ -920,8 +920,8 @@
 		{
 			"techniqueID": "T1099",
 			"tactic": "defense-evasion",
-			"score": 30,
-			"color": "#c6dbef",
+			"score": 100,
+			"color": "#3182bd",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -1012,6 +1012,105 @@
 			"tactic": "execution",
 			"score": 30,
 			"color": "#c6dbef",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "defense-evasion",
+			"score": 30,
+			"color": "#9ecae1",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "persistence",
+			"score": 30,
+			"color": "#9ecae1",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1158",
+			"tactic": "defense-evasion",
+			"score": 70,
+			"color": "#6baed6",
+			"comment": "via MFT module",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1158",
+			"tactic": "persistence",
+			"score": 70,
+			"color": "#6baed6",
+			"comment": "via MFT module",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1490",
+			"tactic": "impact",
+			"score": 30,
+			"color": "#9ecae1",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1186",
+			"tactic": "defense-evasion",
+			"score": 100,
+			"color": "#3182bd",
+			"comment": "via PE Sieve integration",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1093",
+			"tactic": "defense-evasion",
+			"score": 100,
+			"color": "#3182bd",
+			"comment": "via PE Sieve integration",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"score": 70,
+			"color": "#6baed6",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"score": 70,
+			"color": "#6baed6",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1085",
+			"tactic": "defense-evasion",
+			"score": 30,
+			"color": "#9ecae1",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1085",
+			"tactic": "execution",
+			"score": 30,
+			"color": "#9ecae1",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
