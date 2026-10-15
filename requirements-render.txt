@@ -1,0 +1,2 @@
+# Rendering is optional; map generation and tests use the Python standard library.
+mitreattack-python==6.3.1

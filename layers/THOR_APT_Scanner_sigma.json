@@ -1,0 +1,3781 @@
+{
+  "name": "THOR v11 - Sigma Rule - ATT&CK 20.0",
+  "versions": {
+    "attack": "20",
+    "navigator": "5.3.2",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Built-in signatures from the supplied export; custom signatures and IOCs excluded. Score 1 means at least one explicit tag maps to an active Enterprise technique. Export-entry counts are metadata, deduplicated per normalized technique within each entry. Revoked IDs are not automatically migrated; no sub-techniques or direct parent scores are inferred. An omitted tactic shows the annotation in all official tactics for that technique. Product loading filters and semantic detection coverage have not been validated.",
+  "techniques": [
+    {
+      "techniqueID": "T1001",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1001.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "23"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1003.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "77"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "28"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1014",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1016",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1018",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "82"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1027.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.010",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1033",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1037",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1037.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1041",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1046",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1047",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "35"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1048",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1048.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1048.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1049",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1053",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1053.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1053.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1053.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "31"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1055.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1056",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1056.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1057",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "80"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "185"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "33"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1068",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "27"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1069",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1069.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1069.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1070.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1071",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1071.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "26"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1071.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1071.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1072",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1078",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1082",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1083",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1087",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1087.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1087.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1090",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "19"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1090.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1090.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1090.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1095",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1098",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1102",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1102.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1102.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1105",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "53"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1106",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1110",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1110.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1112",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "66"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1114",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1114.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1119",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1123",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1124",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1125",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1127",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1127.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1127.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1129",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1132",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1132.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1133",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1134.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1135",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1136",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1136.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1136.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1137",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1137.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1137.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1137.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1140",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1176",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1176.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1185",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1187",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1189",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1190",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "103"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1195",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1195.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1195.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1197",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1201",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1202",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1203",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "26"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1204",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1204.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1204.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "37"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1204.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1210",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1211",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1212",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1216",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "70"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1218.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.010",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.013",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.014",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1219",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1219.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "34"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1220",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1221",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1222",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1222.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1482",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1485",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1486",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1489",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1490",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "17"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1491",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1491.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1496",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1498",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1499",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1499.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1499.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1505.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "37"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1518",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1518.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1526",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1528",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1529",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1539",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1542",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1542.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1543.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "42"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1546.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.015",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1547.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.010",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1548",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1548.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1548.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1548.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1550",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1550.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1550.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1552.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1553",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1553.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1553.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1554",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1556",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1556.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1557",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1557.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1557.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1558",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1558.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1559",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1559.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1560",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1560.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1561",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1561.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1563",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1563.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1564.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1565",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1565.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1566",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1566.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1567",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1567.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1568",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1568.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1569",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1569.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "24"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1570",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1571",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1572",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "17"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1573",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1574.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "63"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.014",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1584",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1587",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1587.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1588",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1588.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1588.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1590",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1590.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1592",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1592.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1595",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1595.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1599",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1599.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1608",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1615",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1620",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1649",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1653",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1675",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "171"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1685.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "36"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1686",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1686.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1688",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1690",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#f1f5f9",
+      "#2563eb"
+    ],
+    "minValue": 0,
+    "maxValue": 1
+  },
+  "legendItems": [
+    {
+      "label": "Explicit signature-tag association",
+      "color": "#2563eb"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "Reference ATT&CK collection",
+      "value": "20.0"
+    },
+    {
+      "name": "Signature version",
+      "value": "1.261012.161123"
+    },
+    {
+      "name": "Source export SHA256",
+      "value": "dfc023019212e8a07d66b5b8db19ea7ec0cd94e3fb175a9d9bcbd0a9d9592cb6"
+    },
+    {
+      "name": "Scope",
+      "value": "origin=internal; Sigma Rule"
+    },
+    {
+      "name": "Direct active technique/sub-technique IDs",
+      "value": "300"
+    },
+    {
+      "name": "Counting unit",
+      "value": "One export entry per normalized, explicit technique tag"
+    }
+  ],
+  "sorting": 0,
+  "hideDisabled": false,
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

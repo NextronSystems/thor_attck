@@ -1,0 +1,56 @@
+{
+  "scope": "Built-in YARA and Sigma; custom signatures and IOCs excluded",
+  "layers": {
+    "yara": {
+      "direct_active_ids": 124,
+      "direct_parent_ids": 51,
+      "direct_subtechnique_ids": 73,
+      "technique_families": 74,
+      "navigation_only_parents": 23
+    },
+    "sigma": {
+      "direct_active_ids": 300,
+      "direct_parent_ids": 123,
+      "direct_subtechnique_ids": 177,
+      "technique_families": 135,
+      "navigation_only_parents": 12
+    },
+    "combined": {
+      "direct_active_ids": 322,
+      "direct_parent_ids": 131,
+      "direct_subtechnique_ids": 191,
+      "technique_families": 140,
+      "navigation_only_parents": 9
+    }
+  },
+  "export_scope": {
+    "YARA Rule": {
+      "origin": "internal",
+      "kind": "YARA Rule",
+      "rows": 28175,
+      "rows_without_tags": 8,
+      "rows_with_technique_id": 11687,
+      "rows_with_active_enterprise_id": 11588,
+      "distinct_active_enterprise_ids": 124,
+      "rows_by_status_overlapping": {
+        "active_enterprise": 11588,
+        "other_domain": 5,
+        "revoked_enterprise": 128,
+        "unknown_id": 1
+      }
+    },
+    "Sigma Rule": {
+      "origin": "internal",
+      "kind": "Sigma Rule",
+      "rows": 2393,
+      "rows_without_tags": 22,
+      "rows_with_technique_id": 2040,
+      "rows_with_active_enterprise_id": 2040,
+      "distinct_active_enterprise_ids": 300,
+      "rows_by_status_overlapping": {
+        "active_enterprise": 2040
+      }
+    }
+  },
+  "reference_active_ids": 706
+}

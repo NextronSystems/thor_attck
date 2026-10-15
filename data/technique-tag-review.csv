@@ -1,0 +1,15 @@
+kind,tag_or_id,status,export_entries,successors_for_review
+YARA Rule,T0830,other_domain,4,
+YARA Rule,T1070.001,revoked_enterprise,1,T1685.005
+YARA Rule,T1070.002,revoked_enterprise,1,T1685.006
+YARA Rule,T1089,revoked_enterprise,3,T1685
+YARA Rule,T1363,unknown_id,1,
+YARA Rule,T1500,revoked_enterprise,2,T1027.004
+YARA Rule,T1540,other_domain,1,
+YARA Rule,T1547.011,revoked_enterprise,2,T1647
+YARA Rule,T1562,revoked_enterprise,6,T1685
+YARA Rule,T1562.001,revoked_enterprise,42,T1685
+YARA Rule,T1562.002,revoked_enterprise,7,T1685.001
+YARA Rule,T1562.004,revoked_enterprise,3,T1686
+YARA Rule,T1574.002,revoked_enterprise,62,T1574.001
+YARA Rule,T1069_00,malformed_tag,1,
