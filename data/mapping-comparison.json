@@ -1,0 +1,184 @@
+{
+  "reference": "Enterprise ATT&CK 20.0",
+  "old": {
+    "distinct_parent_ids": 91,
+    "status_in_current_catalog": {
+      "revoked_enterprise": 41,
+      "active_enterprise": 47,
+      "deprecated_enterprise": 3
+    },
+    "score_distribution": {
+      "20": 6,
+      "100": 34,
+      "30": 30,
+      "50": 30,
+      "70": 13,
+      "80": 5,
+      "40": 4
+    }
+  },
+  "new": {
+    "direct_technique_and_subtechnique_ids": 322,
+    "families": 140,
+    "direct_parent_ids": 131,
+    "direct_subtechnique_ids": 191
+  },
+  "active_old_ids_represented_directly": 41,
+  "active_old_ids_represented_by_family": 43,
+  "active_old_ids_without_current_family_association": [
+    {
+      "id": "T1052",
+      "name": "Exfiltration Over Physical Medium"
+    },
+    {
+      "id": "T1074",
+      "name": "Data Staged"
+    },
+    {
+      "id": "T1080",
+      "name": "Taint Shared Content"
+    },
+    {
+      "id": "T1213",
+      "name": "Data from Information Repositories"
+    }
+  ],
+  "warning": "Historical scored parent-level layer and current explicit tag associations are not equivalent measures of detection effectiveness.",
+  "tactics": [
+    {
+      "tactic": "reconnaissance",
+      "name": "Reconnaissance",
+      "total": 46,
+      "both": 0,
+      "yara": 1,
+      "sigma": 4,
+      "associated": 5
+    },
+    {
+      "tactic": "resource-development",
+      "name": "Resource Development",
+      "total": 51,
+      "both": 0,
+      "yara": 0,
+      "sigma": 7,
+      "associated": 7
+    },
+    {
+      "tactic": "initial-access",
+      "name": "Initial Access",
+      "total": 22,
+      "both": 2,
+      "yara": 1,
+      "sigma": 8,
+      "associated": 11
+    },
+    {
+      "tactic": "execution",
+      "name": "Execution",
+      "total": 66,
+      "both": 18,
+      "yara": 1,
+      "sigma": 21,
+      "associated": 40
+    },
+    {
+      "tactic": "persistence",
+      "name": "Persistence",
+      "total": 113,
+      "both": 21,
+      "yara": 2,
+      "sigma": 30,
+      "associated": 53
+    },
+    {
+      "tactic": "privilege-escalation",
+      "name": "Privilege Escalation",
+      "total": 96,
+      "both": 22,
+      "yara": 5,
+      "sigma": 22,
+      "associated": 49
+    },
+    {
+      "tactic": "stealth",
+      "name": "Stealth",
+      "total": 151,
+      "both": 23,
+      "yara": 7,
+      "sigma": 45,
+      "associated": 75
+    },
+    {
+      "tactic": "defense-impairment",
+      "name": "Defense Impairment",
+      "total": 57,
+      "both": 1,
+      "yara": 0,
+      "sigma": 18,
+      "associated": 19
+    },
+    {
+      "tactic": "credential-access",
+      "name": "Credential Access",
+      "total": 68,
+      "both": 15,
+      "yara": 4,
+      "sigma": 21,
+      "associated": 40
+    },
+    {
+      "tactic": "discovery",
+      "name": "Discovery",
+      "total": 49,
+      "both": 16,
+      "yara": 1,
+      "sigma": 8,
+      "associated": 25
+    },
+    {
+      "tactic": "lateral-movement",
+      "name": "Lateral Movement",
+      "total": 23,
+      "both": 8,
+      "yara": 3,
+      "sigma": 4,
+      "associated": 15
+    },
+    {
+      "tactic": "collection",
+      "name": "Collection",
+      "total": 41,
+      "both": 2,
+      "yara": 2,
+      "sigma": 11,
+      "associated": 15
+    },
+    {
+      "tactic": "command-and-control",
+      "name": "Command and Control",
+      "total": 45,
+      "both": 6,
+      "yara": 1,
+      "sigma": 17,
+      "associated": 24
+    },
+    {
+      "tactic": "exfiltration",
+      "name": "Exfiltration",
+      "total": 20,
+      "both": 1,
+      "yara": 2,
+      "sigma": 5,
+      "associated": 8
+    },
+    {
+      "tactic": "impact",
+      "name": "Impact",
+      "total": 33,
+      "both": 0,
+      "yara": 0,
+      "sigma": 14,
+      "associated": 14
+    }
+  ]
+}

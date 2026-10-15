@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1740" viewBox="0 0 2100 1740">
+<rect width="100%" height="100%" fill="#f3f6fa"/>
+<style>text{font-family:Arial,Helvetica,sans-serif} .muted{fill:#64748b}</style>
+<rect x="0" y="0" width="2100" height="275" rx="0" fill="#101d34"/>
+<rect x="60" y="53" width="9" height="51" rx="4" fill="#38bdf8"/>
+<text x="92" y="93" font-size="49" fill="#ffffff" font-weight="700" text-anchor="start">THOR  /  ATT&amp;CK mapping</text>
+<text x="92" y="141" font-size="27" fill="#cbd5e1" font-weight="400" text-anchor="start">Built-in YARA + Sigma signatures · Enterprise ATT&amp;CK v20.0</text>
+<text x="92" y="191" font-size="21" fill="#94a3b8" font-weight="400" text-anchor="start">Signature snapshot 1.261012.161123  |  2026-10-15</text>
+<text x="92" y="236" font-size="21" fill="#94a3b8" font-weight="400" text-anchor="start">Explicit signature-tag associations. Detection effectiveness has not been validated.</text>
+<rect x="60" y="310" width="480" height="170" rx="16" fill="#ffffff"/>
+<text x="87" y="371" font-size="48" fill="#0f294f" font-weight="700" text-anchor="start">322</text>
+<text x="87" y="414" font-size="23" fill="#233952" font-weight="600" text-anchor="start">direct technique IDs</text>
+<text x="87" y="452" font-size="18" fill="#64748b" font-weight="400" text-anchor="start">131 parents + 191 sub-techniques</text>
+<rect x="560" y="310" width="480" height="170" rx="16" fill="#ffffff"/>
+<text x="587" y="371" font-size="48" fill="#0f294f" font-weight="700" text-anchor="start">140</text>
+<text x="587" y="414" font-size="23" fill="#233952" font-weight="600" text-anchor="start">technique families</text>
+<text x="587" y="452" font-size="18" fill="#64748b" font-weight="400" text-anchor="start">Parents with a direct or child tag</text>
+<rect x="1060" y="310" width="480" height="170" rx="16" fill="#ffffff"/>
+<text x="1087" y="371" font-size="48" fill="#0f294f" font-weight="700" text-anchor="start">124</text>
+<text x="1087" y="414" font-size="23" fill="#233952" font-weight="600" text-anchor="start">YARA-associated IDs</text>
+<text x="1087" y="452" font-size="18" fill="#64748b" font-weight="400" text-anchor="start">300 Sigma-associated IDs</text>
+<rect x="1560" y="310" width="480" height="170" rx="16" fill="#ffffff"/>
+<text x="1587" y="371" font-size="48" fill="#0f294f" font-weight="700" text-anchor="start">43 / 47</text>
+<text x="1587" y="414" font-size="23" fill="#233952" font-weight="600" text-anchor="start">active old IDs represented</text>
+<text x="1587" y="452" font-size="18" fill="#64748b" font-weight="400" text-anchor="start">Directly or through sub-techniques</text>
+<rect x="60" y="515" width="1980" height="825" rx="18" fill="#ffffff"/>
+<text x="90" y="562" font-size="30" fill="#17243b" font-weight="700" text-anchor="start">Where the exported signatures map</text>
+<text x="90" y="600" font-size="21" fill="#64748b" font-weight="400" text-anchor="start">Each bar spans all active technique and sub-technique IDs in that tactic.</text>
+<rect x="90" y="625" width="19" height="19" rx="4" fill="#2563eb"/>
+<text x="120" y="642" font-size="19" fill="#17243b" font-weight="400" text-anchor="start">YARA + Sigma</text>
+<rect x="355" y="625" width="19" height="19" rx="4" fill="#8b5cf6"/>
+<text x="385" y="642" font-size="19" fill="#17243b" font-weight="400" text-anchor="start">YARA only</text>
+<rect x="575" y="625" width="19" height="19" rx="4" fill="#0891b2"/>
+<text x="605" y="642" font-size="19" fill="#17243b" font-weight="400" text-anchor="start">Sigma only</text>
+<rect x="800" y="625" width="19" height="19" rx="4" fill="#e8edf4"/>
+<text x="830" y="642" font-size="19" fill="#17243b" font-weight="400" text-anchor="start">No explicit tag association</text>
+<text x="1958" y="642" font-size="18" fill="#64748b" font-weight="400" text-anchor="end">Tagged / active IDs</text>
+<text x="90" y="707" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Reconnaissance</text>
+<rect x="480" y="684" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480.0" y="684" width="25.217391304347824" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="505.2173913043478" y="684" width="100.8695652173913" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="706" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">5 / 46</text>
+<text x="1960" y="706" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">11%</text>
+<text x="90" y="747" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Resource Development</text>
+<rect x="480" y="724" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480.0" y="724" width="159.2156862745098" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="746" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">7 / 51</text>
+<text x="1960" y="746" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">14%</text>
+<text x="90" y="787" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Initial Access</text>
+<rect x="480" y="764" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="764" width="105.45454545454545" height="28" rx="0" fill="#2563eb"/>
+<rect x="585.4545454545455" y="764" width="52.72727272727273" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="638.1818181818182" y="764" width="421.8181818181818" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="786" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">11 / 22</text>
+<text x="1960" y="786" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">50%</text>
+<text x="90" y="827" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Execution</text>
+<rect x="480" y="804" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="804" width="316.3636363636364" height="28" rx="0" fill="#2563eb"/>
+<rect x="796.3636363636364" y="804" width="17.575757575757574" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="813.939393939394" y="804" width="369.09090909090907" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="826" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">40 / 66</text>
+<text x="1960" y="826" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">61%</text>
+<text x="90" y="867" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Persistence</text>
+<rect x="480" y="844" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="844" width="215.57522123893804" height="28" rx="0" fill="#2563eb"/>
+<rect x="695.5752212389381" y="844" width="20.530973451327434" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="716.1061946902655" y="844" width="307.9646017699115" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="866" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">53 / 113</text>
+<text x="1960" y="866" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">47%</text>
+<text x="90" y="907" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Privilege Escalation</text>
+<rect x="480" y="884" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="884" width="265.8333333333333" height="28" rx="0" fill="#2563eb"/>
+<rect x="745.8333333333333" y="884" width="60.416666666666664" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="806.25" y="884" width="265.8333333333333" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="906" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">49 / 96</text>
+<text x="1960" y="906" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">51%</text>
+<text x="90" y="947" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Stealth</text>
+<rect x="480" y="924" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="924" width="176.6887417218543" height="28" rx="0" fill="#2563eb"/>
+<rect x="656.6887417218543" y="924" width="53.77483443708609" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="710.4635761589404" y="924" width="345.6953642384106" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="946" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">75 / 151</text>
+<text x="1960" y="946" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">50%</text>
+<text x="90" y="987" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Defense Impairment</text>
+<rect x="480" y="964" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="964" width="20.350877192982455" height="28" rx="0" fill="#2563eb"/>
+<rect x="500.35087719298247" y="964" width="366.3157894736842" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="986" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">19 / 57</text>
+<text x="1960" y="986" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">33%</text>
+<text x="90" y="1027" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Credential Access</text>
+<rect x="480" y="1004" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="1004" width="255.88235294117646" height="28" rx="0" fill="#2563eb"/>
+<rect x="735.8823529411765" y="1004" width="68.23529411764706" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="804.1176470588235" y="1004" width="358.2352941176471" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1026" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">40 / 68</text>
+<text x="1960" y="1026" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">59%</text>
+<text x="90" y="1067" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Discovery</text>
+<rect x="480" y="1044" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="1044" width="378.7755102040816" height="28" rx="0" fill="#2563eb"/>
+<rect x="858.7755102040817" y="1044" width="23.6734693877551" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="882.4489795918367" y="1044" width="189.3877551020408" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1066" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">25 / 49</text>
+<text x="1960" y="1066" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">51%</text>
+<text x="90" y="1107" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Lateral Movement</text>
+<rect x="480" y="1084" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="1084" width="403.4782608695652" height="28" rx="0" fill="#2563eb"/>
+<rect x="883.4782608695652" y="1084" width="151.30434782608697" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="1034.782608695652" y="1084" width="201.7391304347826" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1106" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">15 / 23</text>
+<text x="1960" y="1106" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">65%</text>
+<text x="90" y="1147" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Collection</text>
+<rect x="480" y="1124" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="1124" width="56.58536585365854" height="28" rx="0" fill="#2563eb"/>
+<rect x="536.5853658536586" y="1124" width="56.58536585365854" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="593.170731707317" y="1124" width="311.219512195122" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1146" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">15 / 41</text>
+<text x="1960" y="1146" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">37%</text>
+<text x="90" y="1187" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Command and Control</text>
+<rect x="480" y="1164" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="1164" width="154.66666666666666" height="28" rx="0" fill="#2563eb"/>
+<rect x="634.6666666666666" y="1164" width="25.77777777777778" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="660.4444444444445" y="1164" width="438.22222222222223" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1186" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">24 / 45</text>
+<text x="1960" y="1186" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">53%</text>
+<text x="90" y="1227" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Exfiltration</text>
+<rect x="480" y="1204" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480" y="1204" width="58.0" height="28" rx="0" fill="#2563eb"/>
+<rect x="538.0" y="1204" width="116.0" height="28" rx="0" fill="#8b5cf6"/>
+<rect x="654.0" y="1204" width="290.0" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1226" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">8 / 20</text>
+<text x="1960" y="1226" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">40%</text>
+<text x="90" y="1267" font-size="22" fill="#233952" font-weight="500" text-anchor="start">Impact</text>
+<rect x="480" y="1244" width="1160" height="28" rx="6" fill="#e8edf4"/>
+<rect x="480.0" y="1244" width="492.1212121212121" height="28" rx="0" fill="#0891b2"/>
+<text x="1815" y="1266" font-size="22" fill="#17243b" font-weight="600" text-anchor="end">14 / 33</text>
+<text x="1960" y="1266" font-size="21" fill="#64748b" font-weight="400" text-anchor="end">42%</text>
+<text x="90" y="1310" font-size="18" fill="#64748b" font-weight="400" text-anchor="start">A technique can belong to several tactics; row totals must not be added together.</text>
+<rect x="60" y="1375" width="965" height="240" rx="18" fill="#ffffff"/>
+<text x="90" y="1422" font-size="27" fill="#17243b" font-weight="700" text-anchor="start">Compared with the historical map</text>
+<text x="90" y="1467" font-size="25" fill="#0f294f" font-weight="600" text-anchor="start">91 legacy parent IDs → 140 current technique families</text>
+<text x="90" y="1508" font-size="21" fill="#64748b" font-weight="400" text-anchor="start">44 historical IDs are now revoked or deprecated. The old scores and</text>
+<text x="90" y="1538" font-size="21" fill="#64748b" font-weight="400" text-anchor="start">current tag presence use different methods.</text>
+<text x="90" y="1588" font-size="20" fill="#64748b" font-weight="400" text-anchor="start">These figures do not establish a change in detection quality.</text>
+<rect x="1055" y="1375" width="985" height="240" rx="18" fill="#ffffff"/>
+<text x="1085" y="1422" font-size="27" fill="#17243b" font-weight="700" text-anchor="start">4 current IDs need follow-up</text>
+<text x="1085" y="1462" font-size="21" fill="#334155" font-weight="400" text-anchor="start">T1052  Exfiltration Over Physical Medium</text>
+<text x="1085" y="1496" font-size="21" fill="#334155" font-weight="400" text-anchor="start">T1074  Data Staged</text>
+<text x="1085" y="1530" font-size="21" fill="#334155" font-weight="400" text-anchor="start">T1080  Taint Shared Content</text>
+<text x="1085" y="1564" font-size="21" fill="#334155" font-weight="400" text-anchor="start">T1213  Data from Information Repositories</text>
+<text x="60" y="1670" font-size="20" fill="#64748b" font-weight="400" text-anchor="start">Sources: official MITRE STIX 20.0 + THOR export. Custom signatures and IOCs excluded.</text>
+<text x="60" y="1704" font-size="19" fill="#64748b" font-weight="400" text-anchor="start">Produced with our own renderer · Presence is shown consistently; no score implies full technique coverage.</text>
+</svg>

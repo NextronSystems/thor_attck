@@ -1,0 +1,6 @@
+# Local exports and downloaded reference bundles. The published proof export lives in data/.
+/thor-signatures*.json
+.local/
+.venv/
+__pycache__/
+*.pyc

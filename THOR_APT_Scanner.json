@@ -1,1142 +1,5319 @@
 {
-	"name": "THOR APT Scanner",
-	"version": "2.2",
-	"domain": "mitre-enterprise",
-	"description": "Coverage provided by THOR APT Scanner",
-	"filters": {
-		"stages": [
-			"act"
-		],
-		"platforms": [
-			"Windows",
-			"Linux",
-			"macOS"
-		]
-	},
-	"sorting": 0,
-	"viewMode": 0,
-	"hideDisabled": false,
-	"techniques": [
-		{
-			"techniqueID": "T1156",
-			"tactic": "persistence",
-			"score": 20,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1015",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1015",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1087",
-			"tactic": "discovery",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1098",
-			"tactic": "credential-access",
-			"score": 50,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1098",
-			"tactic": "persistence",
-			"score": 50,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1155",
-			"tactic": "execution",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1155",
-			"tactic": "lateral-movement",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1138",
-			"tactic": "persistence",
-			"score": 50,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1138",
-			"tactic": "privilege-escalation",
-			"score": 50,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1119",
-			"tactic": "collection",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1020",
-			"tactic": "exfiltration",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1139",
-			"tactic": "credential-access",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1176",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1110",
-			"tactic": "credential-access",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1088",
-			"tactic": "defense-evasion",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1088",
-			"tactic": "privilege-escalation",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1146",
-			"tactic": "defense-evasion",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1059",
-			"tactic": "execution",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1043",
-			"tactic": "command-and-control",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1223",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1223",
-			"tactic": "execution",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1090",
-			"tactic": "command-and-control",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1136",
-			"tactic": "persistence",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1003",
-			"tactic": "credential-access",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1081",
-			"tactic": "credential-access",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1214",
-			"tactic": "credential-access",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1038",
-			"tactic": "persistence",
-			"score": 20,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1038",
-			"tactic": "privilege-escalation",
-			"score": 20,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1038",
-			"tactic": "defense-evasion",
-			"score": 20,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1073",
-			"tactic": "defense-evasion",
-			"score": 80,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1002",
-			"tactic": "exfiltration",
-			"score": 40,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1132",
-			"tactic": "command-and-control",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1022",
-			"tactic": "exfiltration",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1001",
-			"tactic": "command-and-control",
-			"score": 80,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1074",
-			"tactic": "collection",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1213",
-			"tactic": "collection",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1005",
-			"tactic": "collection",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1140",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1089",
-			"tactic": "defense-evasion",
-			"score": 40,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1189",
-			"tactic": "initial-access",
-			"score": 20,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1052",
-			"tactic": "exfiltration",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1068",
-			"tactic": "privilege-escalation",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1107",
-			"tactic": "defense-evasion",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1222",
-			"tactic": "defense-evasion",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1044",
-			"tactic": "persistence",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1044",
-			"tactic": "privilege-escalation",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1083",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1183",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1183",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1183",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1118",
-			"tactic": "defense-evasion",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1118",
-			"tactic": "execution",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1162",
-			"tactic": "persistence",
-			"score": 80,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1037",
-			"tactic": "lateral-movement",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1037",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1031",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1112",
-			"tactic": "defense-evasion",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1170",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1170",
-			"tactic": "execution",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1040",
-			"tactic": "credential-access",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1040",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1050",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1050",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1027",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1137",
-			"tactic": "persistence",
-			"score": 30,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1075",
-			"tactic": "lateral-movement",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1097",
-			"tactic": "lateral-movement",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1034",
-			"tactic": "persistence",
-			"score": 40,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1034",
-			"tactic": "privilege-escalation",
-			"score": 40,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1086",
-			"tactic": "execution",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1057",
-			"tactic": "discovery",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1060",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1219",
-			"tactic": "command-and-control",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1021",
-			"tactic": "lateral-movement",
-			"score": 20,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1014",
-			"tactic": "defense-evasion",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1053",
-			"tactic": "execution",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1053",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1053",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1064",
-			"tactic": "defense-evasion",
-			"score": 80,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1064",
-			"tactic": "execution",
-			"score": 80,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1035",
-			"tactic": "execution",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1058",
-			"tactic": "persistence",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1058",
-			"tactic": "privilege-escalation",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1023",
-			"tactic": "persistence",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1218",
-			"tactic": "defense-evasion",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1218",
-			"tactic": "execution",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1216",
-			"tactic": "defense-evasion",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1216",
-			"tactic": "execution",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1193",
-			"tactic": "initial-access",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1165",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1165",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1169",
-			"tactic": "privilege-escalation",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1082",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1016",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1049",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1033",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1007",
-			"tactic": "discovery",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1080",
-			"tactic": "lateral-movement",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1221",
-			"tactic": "defense-evasion",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1099",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1127",
-			"tactic": "defense-evasion",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1127",
-			"tactic": "execution",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1065",
-			"tactic": "command-and-control",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1204",
-			"tactic": "execution",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1100",
-			"tactic": "persistence",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1100",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1047",
-			"tactic": "execution",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1084",
-			"tactic": "persistence",
-			"score": 50,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1220",
-			"tactic": "defense-evasion",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1220",
-			"tactic": "execution",
-			"score": 30,
-			"color": "#c6dbef",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1197",
-			"tactic": "defense-evasion",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1197",
-			"tactic": "persistence",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1158",
-			"tactic": "defense-evasion",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "via MFT module",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1158",
-			"tactic": "persistence",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "via MFT module",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1490",
-			"tactic": "impact",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1186",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "via PE Sieve integration",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1093",
-			"tactic": "defense-evasion",
-			"score": 100,
-			"color": "#3182bd",
-			"comment": "via PE Sieve integration",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1055",
-			"tactic": "defense-evasion",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1055",
-			"tactic": "privilege-escalation",
-			"score": 70,
-			"color": "#6baed6",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1085",
-			"tactic": "defense-evasion",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1085",
-			"tactic": "execution",
-			"score": 30,
-			"color": "#9ecae1",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		}
-	],
-	"gradient": {
-		"colors": [
-			"#8dc2e1",
-			"#67a2c3",
-			"#36759a"
-		],
-		"minValue": 0,
-		"maxValue": 100
-	},
-	"legendItems": [],
-	"metadata": [
-		{
-			"name": "Company",
-			"value": "Nextron Systems GmbH"
-		},
-		{
-			"name": "Website",
-			"value": "https://www.nextron-systems.com/thor/"
-		}
-	],
-	"showTacticRowBackground": false,
-	"tacticRowBackground": "#dddddd",
-	"selectTechniquesAcrossTactics": true
+  "name": "THOR v11 - YARA Rule + Sigma Rule - ATT&CK 20.0",
+  "versions": {
+    "attack": "20",
+    "navigator": "5.3.2",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Built-in signatures from the supplied export; custom signatures and IOCs excluded. Score 1 means at least one explicit tag maps to an active Enterprise technique. Export-entry counts are metadata, deduplicated per normalized technique within each entry. Revoked IDs are not automatically migrated; no sub-techniques or direct parent scores are inferred. An omitted tactic shows the annotation in all official tactics for that technique. Product loading filters and semantic detection coverage have not been validated.",
+  "techniques": [
+    {
+      "techniqueID": "T1001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1001.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "471"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "23"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1003.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "145"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "77"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "28"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1003.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "28"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "11"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1014",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "161"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1016",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "41"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1018",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "24"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1020",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "131"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "72"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "62"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "91"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "21"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1021.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "11"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "987"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "82"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1027.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "438"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.010",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1027.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1033",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "113"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "71"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1036.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1037",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1037.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "13"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1040",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "28"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1041",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1046",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "75"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1047",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "187"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "35"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1048",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1048.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1048.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "4"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1048.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1049",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1053",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "10"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1053.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1053.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "41"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1053.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "417"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "13"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "31"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1055.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "20"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "9"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1055.012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1056",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1056.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "141"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1056.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1057",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "93"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "80"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1732"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "185"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "33"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "116"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "404"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "474"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1059.012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1068",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "252"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "27"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1069",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1069.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1069.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1070.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "54"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "4"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1070.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1071",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1071.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "26"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1071.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1071.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "81"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1072",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "44"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1078",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1082",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "70"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1083",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "22"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1087",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1087.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "99"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1087.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "87"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1090",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "190"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "19"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1090.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1090.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1090.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1091",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "10"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1095",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1098",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1098.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1102",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1102.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1102.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1105",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "258"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "53"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1106",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1110",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "18"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1110.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1110.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1111",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1112",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "88"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "66"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1113",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "84"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1114",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1114.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1119",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1123",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1124",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1125",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1127",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1127.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "44"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1127.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1129",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1132",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1132.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "562"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1133",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "17"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1134.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1134.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "174"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1135",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "15"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1136",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "34"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1136.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1136.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1137",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1137.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1137.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1137.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1140",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "43"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1176",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1176.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1185",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1187",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1189",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "20"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1190",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "103"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1195",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1195.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1195.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1197",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "76"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1201",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "3"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1202",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "8"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1203",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "451"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "26"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1204",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1204.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1204.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "37"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1204.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1210",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "168"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1211",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1212",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1216",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "70"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1218.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "21"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "4"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "4"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "76"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "12"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.010",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "96"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "316"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.013",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1218.014",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1219",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "57"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1219.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "34"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1220",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "12"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1221",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "15"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1222",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1222.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1482",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1485",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1486",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1489",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1490",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "17"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1491",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1491.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1496",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1498",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1499",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1499.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1499.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1505.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "8"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2534"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "37"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1505.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1518",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1518.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1526",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1528",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1529",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1539",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1542",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1542.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1543.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "19"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "245"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "42"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1543.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "28"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1546.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "15"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.012",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "27"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1546.015",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "9"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1547.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "86"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "7"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.009",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "282"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1547.010",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1548",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1548.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1548.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "46"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1548.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1550",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1550.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "841"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1550.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "174"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1552.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "6"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1552.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1553",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1553.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1553.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1554",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1555.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1556",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1556.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1557",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1557.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "5"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1557.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1558",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1558.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "5"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1559",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1559.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1560",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1560.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1561",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1561.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1563",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1563.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1564.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1564.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1565",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1565.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1566",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "451"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1566.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1567",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1567.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1568",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1568.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1569",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1569.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "11"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1569.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "283"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "24"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1570",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1571",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1572",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "22"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "17"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1573",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "4"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1574.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "8"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "63"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "3"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.007",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.008",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.011",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1574.014",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "1"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1584",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1587",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1587.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1588",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1588.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1588.002",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1590",
+      "enabled": true,
+      "comment": "Navigation parent only. No direct association inferred from its children.",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1590.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1592",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "2"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "0"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1592.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1595",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1595.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1599",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1599.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1608",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1615",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1620",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1649",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1653",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1675",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "171"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1685.001",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "36"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685.004",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685.005",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1685.006",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1686",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1686.003",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1688",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "techniqueID": "T1690",
+      "enabled": true,
+      "score": 1,
+      "comment": "Explicit signature-tag association. Detection effectiveness and tactical context have not been validated.",
+      "metadata": [
+        {
+          "name": "YARA Rule export entries",
+          "value": "0"
+        },
+        {
+          "name": "Sigma Rule export entries",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#f1f5f9",
+      "#2563eb"
+    ],
+    "minValue": 0,
+    "maxValue": 1
+  },
+  "legendItems": [
+    {
+      "label": "Explicit signature-tag association",
+      "color": "#2563eb"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "Reference ATT&CK collection",
+      "value": "20.0"
+    },
+    {
+      "name": "Signature version",
+      "value": "1.261012.161123"
+    },
+    {
+      "name": "Source export SHA256",
+      "value": "dfc023019212e8a07d66b5b8db19ea7ec0cd94e3fb175a9d9bcbd0a9d9592cb6"
+    },
+    {
+      "name": "Scope",
+      "value": "origin=internal; YARA Rule + Sigma Rule"
+    },
+    {
+      "name": "Direct active technique/sub-technique IDs",
+      "value": "322"
+    },
+    {
+      "name": "Counting unit",
+      "value": "One export entry per normalized, explicit technique tag"
+    }
+  ],
+  "sorting": 0,
+  "hideDisabled": false,
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
 }

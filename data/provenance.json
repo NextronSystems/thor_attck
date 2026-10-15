@@ -1,0 +1,35 @@
+{
+  "snapshot_date": "2026-10-15",
+  "source": {
+    "file": "thor-signatures_261015.json",
+    "sha256": "dfc023019212e8a07d66b5b8db19ea7ec0cd94e3fb175a9d9bcbd0a9d9592cb6",
+    "signature_version": "1.261012.161123"
+  },
+  "attack_version": "20.0",
+  "reference": {
+    "enterprise-attack": {
+      "file": "enterprise-attack-20.0.json",
+      "sha256": "81113ba98afa2928f3dcff62022539f7ce30c315c32e14422f11ff95ce534352",
+      "collection_version": "20.0",
+      "collection_modified": "2026-10-13T17:53:10.145Z",
+      "source": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-20.0.json"
+    },
+    "mobile-attack": {
+      "file": "mobile-attack-20.0.json",
+      "sha256": "824f7d8a37e7893b29e4c6ca6d87b5fbbf3b228ec6384f1a69ee20d523ff59e5",
+      "collection_version": "20.0",
+      "collection_modified": "2026-10-13T17:54:40.393Z",
+      "source": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack-20.0.json"
+    },
+    "ics-attack": {
+      "file": "ics-attack-20.0.json",
+      "sha256": "c9ca0ce523a1b5e512060a390415e8aefe8f6d32c5f82d7de81264960c1e1183",
+      "collection_version": "20.0",
+      "collection_modified": "2026-10-13T17:54:18.154Z",
+      "source": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack-20.0.json"
+    }
+  },
+  "method": "Explicit active Enterprise tag associations; binary scores; per-entry counts retained as metadata",
+  "export_loading_filters": "Not recorded in the source export",
+  "semantic_detection_effectiveness_validated": false
+}

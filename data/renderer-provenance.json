@@ -1,0 +1,12 @@
+{
+  "official_renderer": "mitreattack-python",
+  "official_renderer_version": "6.3.1",
+  "custom_renderer": "Local SVG generator",
+  "source_layer": "THOR_APT_Scanner.json",
+  "stix_collection": "Enterprise 20.0",
+  "configuration": {
+    "all_subtechniques": true,
+    "width_inches": 45,
+    "height_inches": 65
+  }
+}
